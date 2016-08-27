@@ -11,13 +11,13 @@ First, add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tokio = { git = "https://github.com/tokio-rs/tokio" }
+tokio_proto = { git = "https://github.com/tokio-rs/tokio_proto" }
 ```
 
 Next, add this to your crate:
 
 ```rust
-extern crate tokio;
+extern crate tokio_proto;
 ```
 
 And then, use Tokio!
