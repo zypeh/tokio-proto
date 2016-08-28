@@ -11,7 +11,7 @@ First, add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tokio_proto = { git = "https://github.com/tokio-rs/tokio_proto" }
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
 ```
 
 Next, add this to your crate:
